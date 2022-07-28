@@ -1,0 +1,15 @@
+Write a class to calculate Uber Pirce =>
+
+class Price{
+    constructor(name,kms,cost){
+        this.name=name;
+        this.kms=kms;
+        this.cost=cost;
+    }
+    calPrice(n){
+        return "the cost of order is :"+this.cost*n;
+    }
+}
+
+var p1 = new Uber("san",100,5.30)
+console.log(p1.calPrice(100));
