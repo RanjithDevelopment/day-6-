@@ -1,0 +1,12 @@
+class to hold person details =>
+class person{
+constructor(fname,lastName) {
+    this.fname = fname;
+    this.lastName = lastName;
+   
+}
+getdate(){return "First Name :"+this.fname+"Second Name :"+this.lastName; }
+}
+var person1= new Person("setve","jobs");
+
+console.log(person1.getdata());
