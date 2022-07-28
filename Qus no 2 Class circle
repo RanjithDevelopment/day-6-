@@ -1,0 +1,40 @@
+QUSTIN NO 2 => Class circle
+
+
+ class Circle{
+
+constructor(radius,color){
+
+if(this.radius=="undefined"){this.radius=radius;}
+if(this.color=="undefined"){this.color=color;}
+}
+getradius(){
+retrun this.radius;
+}
+setradius(radius){
+this.radius=radius;
+}
+getcolor(){
+return this.color;
+}
+setcolor(color){
+this.color=color;
+}
+tostring(){
+return "Radius:"+this.radius+"color:"+this.color;
+}
+getarea(){
+return(2*3.1421*this.radius**2);
+}
+getcircumferrence(){
+return (2*this.radius);
+}
+}
+var c1=new Circle("1.0","red");
+console.log(c1.getradius);
+console.log(c1.setradius);
+console.log(c1.getcolor);
+console.log(c1.setcolor);
+console.log(c1.tostring);
+console.log(c1.getarea);
+console.log(c1.getcircumferrence);
